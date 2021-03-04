@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class DesafioTemperatura {
+	public static void main(String[] args) {
+		//(F - 32) * 5/9 = C
+		double celsius, far;
+		final int constante = 32;
+		final double constante2 = 5/9;
+				
+		far = 90;
+		
+		celsius = (far - constante) * constante2;
+		
+		System.out.println(celsius);
+	}
+}
